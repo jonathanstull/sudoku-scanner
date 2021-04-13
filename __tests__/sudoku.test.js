@@ -8,15 +8,15 @@ describe('SudoRow1', () => {
   });
 
   it('should create an object with a row array containing nine keys', () => {
-    expect(sudoRow1[0]).toEqual(1);
-    expect(sudoRow1[1]).toEqual(2);
-    expect(sudoRow1[2]).toEqual(3);
-    expect(sudoRow1[3]).toEqual(4);
-    expect(sudoRow1[4]).toEqual(5);
-    expect(sudoRow1[5]).toEqual(6);
-    expect(sudoRow1[6]).toEqual(7);
-    expect(sudoRow1[7]).toEqual(8);
-    expect(sudoRow1[8]).toEqual(9);
+    expect(reusableSudoRow1.row1[0]).toEqual(1);
+    expect(reusableSudoRow1.row1[1]).toEqual(2);
+    expect(reusableSudoRow1.row1[2]).toEqual(3);
+    expect(reusableSudoRow1.row1[3]).toEqual(4);
+    expect(reusableSudoRow1.row1[4]).toEqual(5);
+    expect(reusableSudoRow1.row1[5]).toEqual(6);
+    expect(reusableSudoRow1.row1[6]).toEqual(7);
+    expect(reusableSudoRow1.row1[7]).toEqual(8);
+    expect(reusableSudoRow1.row1[8]).toEqual(9);
   });
 
   // it('should check to see that a row object has numbers in it', () => {
