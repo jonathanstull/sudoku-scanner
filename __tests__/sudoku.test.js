@@ -19,8 +19,19 @@ describe('SudoRow1', () => {
     expect(reusableSudoRow1.row1[8]).toEqual(9);
   });
 
-  // it('should check to see that a row object has numbers in it', () => {
+  it('should check to see that a row array contains numbers', () => {
+    expect(reusableSudoRow1.row1[0]).toEqual(expect.any(Number));
+    expect(reusableSudoRow1.row1[1]).toEqual(expect.any(Number));
+    expect(reusableSudoRow1.row1[2]).toEqual(expect.any(Number));
+    expect(reusableSudoRow1.row1[3]).toEqual(expect.any(Number));
+    expect(reusableSudoRow1.row1[4]).toEqual(expect.any(Number));
+    expect(reusableSudoRow1.row1[5]).toEqual(expect.any(Number));
+    expect(reusableSudoRow1.row1[6]).toEqual(expect.any(Number));
+    expect(reusableSudoRow1.row1[7]).toEqual(expect.any(Number));
+    expect(reusableSudoRow1.row1[8]).toEqual(expect.any(Number));
+  });
 
+  
 });
 
 // describe('Sudoku', () => {
